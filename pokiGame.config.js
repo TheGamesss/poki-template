@@ -61,7 +61,8 @@ module.exports = {
 	//	- rt_filename (no extension)
 	// it can overwrite other config props aswell
 	fileconfigs: [
-
+        rt_title: "my Awesome Flash Game",
+        rt_filename: "my_awesome_flash_game",
 	],
 
 	resources: ["node_modules/@awayfl/poki-player/template/fonts.swf"],	// list of urls to preload (fonts) - relative to project folder
